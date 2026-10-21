@@ -1,5 +1,9 @@
 ## My S3 buckets
 
+Public bucket: https://public-zeq9vg.s3.amazonaws.com/index.html
+
+Private link to bucket: https://secret-zeq9vg.s3.amazonaws.com/pg14838.txt?AWSAccessKeyId=ASIAZNKYYWBFMH7HZ56B&Signature=1TZZDQ7xeI%2FJ80B7ocN8%2FZh2fc0%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEJv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQD1N7PYh%2F9p%2Bksmituc%2BbIMX2%2FC6UKWM3NIHlgaXS9WSgIhAIW1nnYXWUZSTjOmtpTv2iwa9g6wxMqScoyzNoUX6lSzKq0CCGQQABoMNjQ3MTE1NjE2MzMwIgxKv1RA5CVVKZ66%2FDAqigLxAajmb2Oh0yhUsjCyGf5DUtcHjx4zRcgczLjtFdtqP5IfsHylIBjB1ndrjs8uue5Xq%2B4%2FoO%2FP0vnSCAuhkeTuo2FKAu%2FhFOpjf%2FtatFLaYQGPlcH7h30T2o4bNIhNEXtnKtcRLzkfOmKdsj%2F9qE8bg1XQz5OPp5vD%2F9q9F3hFpOL%2FiUyVzsC9iHlZaEMxfUtmDjEZ1AO97PEbfpNMfKcrPzNqnvsW2O7DEuPiTHN9YCyTa94yJevfQSraQdzZ1G9HPaWpWhDVNvvrySLQj0%2Fvx0cpjp27h5SmGDNvfkU1F3byNdiQKlFWhJtlkvPdvz2XAiIRWE54qaj6YRy2RT6w6%2Fxk5s%2BAvntfLTC3k%2BTWBjqcASjak8eWON8XkDOEyCar1jbG5hI1tsnCJdzfW4gs6AvjQjzXRtrDQQOxCOcklhuor%2BmVnrDAzcAgGfCRICSAtwwjeucdKfJNOsIVWLvOnMCL3Lae4DfVmLpiPWDMS2UiurGrNtJc9N%2BvJ7TRByb9vUycKuxeOUwKB41gLBjqYEQEBSOnqlUIduGQX%2B9eXSMOQHIi5Z%2B6pfxV4UOrnA%3D%3D&Expires=1793219741
+
 I’d use a public bucket when the content is meant for anyone, permanently, like a static website or an open library of public-domain books. I’d use a presigned URL when a file should stay private and only certain people should get temporary access, because the link expires and nothing else in the bucket is exposed.
 
 # Lab 06: Working with S3 Storage
