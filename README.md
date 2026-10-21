@@ -1,3 +1,7 @@
+## My S3 buckets
+
+I’d use a public bucket when the content is meant for anyone, permanently, like a static website or an open library of public-domain books. I’d use a presigned URL when a file should stay private and only certain people should get temporary access, because the link expires and nothing else in the bucket is exposed.
+
 # Lab 06: Working with S3 Storage
 
 The goal of this lab is to get you comfortable with **Amazon S3** object storage, building on what you have learned about the command line, AWS accounts, and scripting. You will stage a collection of 100 books from [Project Gutenberg](https://www.gutenberg.org/) in a **public** bucket that anyone can browse in a web browser, and share a single book from a **private** bucket with a time-limited presigned URL.
